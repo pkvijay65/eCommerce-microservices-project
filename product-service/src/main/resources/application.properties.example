@@ -1,0 +1,7 @@
+spring.datasource.url=mongodb://localhost:27017/product-service
+spring.data.mongodb.database=product-service
+
+
+spring.application.name=product-service
+server.port=8083
+
