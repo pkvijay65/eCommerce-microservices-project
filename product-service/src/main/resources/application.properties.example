@@ -7,3 +7,10 @@ server.port=0
 
 #Eureka configuration
 eureka.client.serviceUrl.defaultZone=http://localhost:8084/eureka
+
+
+#Zipkin Properties
+management.zipkin.tracing.endpoint=http://localhost:9411/api/v2/spans
+
+#micrometer
+management.tracing.sampling.probability=1.0
