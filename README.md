@@ -6,6 +6,7 @@
   * Order Service
   * Product Service
   * Inventory Service
+  * Notification Service
 
 * The microservices are registered with a Eureka server and provide functionality related to placing an order, getting product details, and getting inventory details.
 
@@ -26,6 +27,7 @@ With the help of this project, I learned:
 * Using Distributed Tracing to trace requests across microservices.
 * Using Hystrix to implement circuit breakers.
 * Using Docker to containerize the microservices.
+* Using kafka to implement asynchronous communication between microservices.
 
 
 ## Future Enhancements:
